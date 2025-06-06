@@ -1,6 +1,6 @@
 {
   "name": "chuot-device-detector-js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A Clone javascript port of Matomo device-detector",
   "homepage": "https://github.com/etienne-martin/device-detector-js#readme",
   "keywords": [

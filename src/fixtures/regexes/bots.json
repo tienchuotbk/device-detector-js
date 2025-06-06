@@ -3010,10 +3010,6 @@
     "url": "https://www.woorank.com/bot"
   },
   {
-    "regex": "[a-z0-9\\-_]*((?<!cu|power[ _]|m[ _])bot(?![ _]TAB|[ _]?5[0-9])|crawler|crawl|checker|archiver|transcoder|spider)([^a-z]|$)",
-    "name": "Generic Bot"
-  },
-  {
     "regex": "\\bOAI-SearchBot\\/\\d+(\\.\\d+)*\\b",
     "name": "OAI SearchBot",
     "category": "Search",
@@ -3030,5 +3026,33 @@
     "name": "GPTBot",
     "category": "Crawler",
     "url": "https://openai.com/gptbot"
+  },
+  {
+    "regex": "\\bGoogle-Extended\\/\\d+(\\.\\d+)*\\b",
+    "name": "Google Extended (Gemini)",
+    "category": "Crawler",
+    "url": "http://www.google.com/bot.html"
+  },
+  {
+    "regex": "\\bClaudeBot(?:\\/\\d+(?:\\.\\d+)*)?\\b",
+    "name": "ClaudeBot",
+    "category": "Crawler",
+    "url": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler"
+  },
+  {
+    "regex": "\\banthropic-ai(?:\\/\\d+(?:\\.\\d+)*)?\\b",
+    "name": "Anthropic AI Bot",
+    "category": "Crawler",
+    "url": "http://www.anthropic.com/bot.html"
+  },
+  {
+    "regex": "\\bclaude-web(?:\\/\\d+(?:\\.\\d+)*)?\\b",
+    "name": "Claude-Web",
+    "category": "Crawler",
+    "url": "http://www.anthropic.com/bot.html"
+  },
+  {
+    "regex": "[a-z0-9\\-_]*((?<!cu|power[ _]|m[ _])bot(?![ _]TAB|[ _]?5[0-9])|crawler|crawl|checker|archiver|transcoder|spider)([^a-z]|$)",
+    "name": "Generic Bot"
   }
 ]
