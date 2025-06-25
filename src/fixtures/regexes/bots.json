@@ -3052,6 +3052,42 @@
     "url": "http://www.anthropic.com/bot.html"
   },
   {
+    "regex": "\\bPerplexityBot(?:\\/\\d+(?:\\.\\d+)*)?\\b",
+    "name": "PerplexityBot",
+    "category": "Crawler",
+    "url": "https://perplexity.ai/perplexitybot"
+  },
+  {
+    "regex": "\\bPerplexity-User(?:\\/\\d+(?:\\.\\d+)*)?\\b",
+    "name": "Perplexity-User",
+    "category": "Crawler",
+    "url": "https://perplexity.ai/perplexity-user"
+  },
+  {
+    "regex": "\\bAmazonbot(?:\\/\\d+(?:\\.\\d+)*)?\\b",
+    "name": "Amazonbot",
+    "category": "Crawler",
+    "url": "https://developer.amazon.com/support/amazonbot"
+  },
+  {
+    "regex": "\\b(?:cohere-ai|cohere-training-data-crawler)(?:\\/\\d+(?:\\.\\d+)*)?\\b",
+    "name": "CohereBot",
+    "category": "AI Crawler",
+    "url": "https://www.cohere.ai/bot.html"
+  },
+  {
+    "regex": "\\byouBot(?:\\/\\d+(?:\\.\\d+)*)?\\b",
+    "name": "youBot",
+    "category": "AI Crawler",
+    "url": "http://you.com/bot.html"
+  },
+  {
+    "regex": "\\bNeevabot(?:\\/\\d+(?:\\.\\d+)*)?\\b",
+    "name": "Neevabot",
+    "category": "AI Crawler",
+    "url": "https://neeva.com/neevabot"
+  },
+  {
     "regex": "[a-z0-9\\-_]*((?<!cu|power[ _]|m[ _])bot(?![ _]TAB|[ _]?5[0-9])|crawler|crawl|checker|archiver|transcoder|spider)([^a-z]|$)",
     "name": "Generic Bot"
   }
