@@ -3088,6 +3088,18 @@
     "url": "https://neeva.com/neevabot"
   },
   {
+    "regex": "crazy[ _]egg[ _]bot(\\(Mobile\\))?",
+    "name": "Crazy Egg Bot",
+    "category": "Crawler",
+    "url": "https://www.crazyegg.com"
+  },
+  {
+    "regex": "surfer[ _]?bot",
+    "name": "Surfer Bot",
+    "category": "Crawler",
+    "url": "https://surferseo.com"
+  },
+  {
     "regex": "[a-z0-9\\-_]*((?<!cu|power[ _]|m[ _])bot(?![ _]TAB|[ _]?5[0-9])|crawler|crawl|checker|archiver|transcoder|spider)([^a-z]|$)",
     "name": "Generic Bot"
   }
