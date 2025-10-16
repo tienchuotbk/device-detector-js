@@ -3100,6 +3100,96 @@
     "url": "https://surferseo.com"
   },
   {
+    "regex": "Googlebot-Image/[0-9.]+",
+    "name": "Googel Image Bot",
+    "category": "Crawler",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers"
+  },
+  {
+    "regex": "Googlebot-Video/[0-9.]+",
+    "name": "Google Video Bot",
+    "category": "Crawler",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers"
+  },
+  {
+    "regex": "Google-CloudVertexBot",
+    "name": "Google-CloudVertexBot",
+    "category": "Crawler",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers"
+  },
+  {
+    "regex": "FacebookBot",
+    "name": "FacebookBot",
+    "category": "Crawler",
+    "url": ""
+  },
+  {
+    "regex": "meta-externalagent",
+    "name": "Meta-ExternalAgent",
+    "category": "Crawler",
+    "url": ""
+  },
+  {
+    "regex": "Meta-ExternalAds",
+    "name": "Meta-ExternalAds",
+    "category": "Crawler",
+    "url": "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/"
+  },
+  {
+    "regex": "DeepseekBot",
+    "name": "DeepseekBot",
+    "category": "Crawler",
+    "url": "https://deepseek.com/bot"
+  },
+  {
+    "regex": "PanguBot",
+    "name": "PanguBot",
+    "category": "Crawler",
+    "url": "https://darkvisitors.com/agents/pangubot"
+  },
+  {
+    "regex": "Timpibot",
+    "name": "Timpibot",
+    "category": "Crawler",
+    "url": ""
+  },
+  {
+    "regex": "AI2Bot",
+    "name": "AI2Bot",
+    "category": "Crawler",
+    "url": "https://allenai.org/"
+  },
+  {
+    "regex": "Diffbot",
+    "name": "Diffbot",
+    "category": "Crawler",
+    "url": "https://www.diffbot.com/dev/docs"
+  },
+  {
+    "regex": "Webzio-Extended",
+    "name": "Webzio-Extended",
+    "category": "Crawler",
+    "url": "https://webz.io"
+  },
+  {
+    "regex": "meta-externalfetcher",
+    "name": "Meta-ExternalFetcher",
+    "category": "Crawler",
+    "url": "https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/"
+  },
+  {
+    "regex": "MistralAI-User",
+    "name": "MistralAI-User",
+    "category": "Crawler",
+    "url": "https://mistral.ai"
+  },
+  {
+    "regex": "DuckAssistBot",
+    "name": "DuckAssistBot",
+    "category": "Crawler",
+    "url": "https://duckduckgo.com/"
+  },
+  {
     "regex": "[a-z0-9\\-_]*((?<!cu|power[ _]|m[ _])bot(?![ _]TAB|[ _]?5[0-9])|crawler|crawl|checker|archiver|transcoder|spider)([^a-z]|$)",
     "name": "Generic Bot"
   }
