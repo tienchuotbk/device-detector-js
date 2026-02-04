@@ -3190,6 +3190,24 @@
     "url": "https://duckduckgo.com/"
   },
   {
+    "regex": "Discordbot\\/\\d+\\.\\d+",
+    "name": "Discordbot",
+    "category": "Crawler",
+    "url": "https://discord.com/developers/docs/resources/discordbot"
+  },
+  {
+    "regex": "^https:\\/\\/(www\\.)?searchatlas\\.com",
+    "name": "SearchAtlasBot",
+    "category": "Crawler",
+    "url": "https://searchatlas.com"
+  },
+  {
+    "regex": "AccessibeBot\\/\\d+\\.\\d+",
+    "name": "AccessibeBot",
+    "category": "Crawler",
+    "url": "https://www.accessibe.com/bot"
+  },
+  {
     "regex": "[a-z0-9\\-_]*((?<!cu|power[ _]|m[ _])bot(?![ _]TAB|[ _]?5[0-9])|crawler|crawl|checker|archiver|transcoder|spider)([^a-z]|$)",
     "name": "Generic Bot"
   }
