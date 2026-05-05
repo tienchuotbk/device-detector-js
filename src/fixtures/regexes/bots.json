@@ -3208,6 +3208,12 @@
     "url": "https://www.accessibe.com/bot"
   },
   {
+    "regex": "PopeTech-(ScanBot|CrawlBot)/\\d+\\.\\d+",
+    "name": "PopeTech Bot",
+    "category": "Crawler",
+    "url": "https://pope.tech"
+  },
+  {
     "regex": "[a-z0-9\\-_]*((?<!cu|power[ _]|m[ _])bot(?![ _]TAB|[ _]?5[0-9])|crawler|crawl|checker|archiver|transcoder|spider)([^a-z]|$)",
     "name": "Generic Bot"
   }
